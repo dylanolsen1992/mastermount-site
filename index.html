@@ -8,24 +8,24 @@
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-  <header>
-    <div class="nav-container">
-      <div class="logo">MasterMount AV</div>
+  <header class="site-header">
+    <div class="container header-container">
+      <h1 class="logo">MasterMount AV & Surveillance</h1>
       <nav>
-        <ul>
+        <ul class="nav-menu">
           <li><a href="#about">About</a></li>
           <li class="dropdown">
-            <a href="#services">Services</a>
+            <a href="#">Services</a>
             <ul class="dropdown-content">
               <li><a href="#">Access Control</a></li>
               <li><a href="#">AV & Home Theatre</a></li>
               <li><a href="#">TV Mounting</a></li>
-              <li><a href="#">CCTV</a></li>
+              <li><a href="#">CCTV Systems</a></li>
               <li><a href="#">Burglary Intrusion Alarms</a></li>
             </ul>
           </li>
           <li class="dropdown">
-            <a href="#">MasterMount Pro Gallery</a>
+            <a href="#">Gallery</a>
             <ul class="dropdown-content">
               <li><a href="#">Intrusion Alarms</a></li>
               <li><a href="#">Access Control</a></li>
@@ -38,54 +38,38 @@
           <li><a href="#contact">Contact</a></li>
         </ul>
       </nav>
-      <a href="#estimate" class="cta-btn">Request Free Estimate</a>
+      <a href="#estimate" class="btn-estimate">Free Estimate</a>
     </div>
   </header>
 
   <section class="hero">
-    <h1>Secure. Sound. Seamless.</h1>
-    <p>Professional AV & Security Installations — Serving West Kelowna & the Okanagan</p>
-    <a href="#estimate" class="hero-cta">Request a Free Estimate</a>
+    <div class="hero-content">
+      <h2>Secure. Sound. Seamless.</h2>
+      <p>Advanced AV & Surveillance Solutions Built for Your Space</p>
+      <a href="#estimate" class="btn-hero">Request Free Estimate</a>
+    </div>
   </section>
 
-  <section id="about">
-    <h2>About MasterMount AV</h2>
-    <p>Founded by Dylan Olsen, a Senior Security Technician & Install and Technical Specialist. Certified TQ Journeyman with over 12 years of experience in AV, CCTV, Access Control, Security and all other low voltage & automation systems. MasterMount AV & Surveillance delivers premium custom design installations to meet all clients tailored needs. Ensuring code compliance, and trusted un-paralleled workmanship.</p>
+  <section id="about" class="content-section">
+    <div class="container">
+      <h2>About MasterMount AV</h2>
+      <p>Founded by Dylan Olsen, a TQ-certified Journeyman with over 12 years of hands-on experience in AV, CCTV, Access Control and Security. Specializing in high-end installs, we bring clean design, code compliance and unmatched workmanship to every job.</p>
+    </div>
   </section>
 
-  <section id="services">
-    <h2>Our Services</h2>
-    <ul class="service-list">
-      <li>TV Mounting & Audio</li>
-      <li>CCTV  Surveillance Systems</li>
-      <li>Access Control Systems</li>
-      <li>AV & Home Theatre Installations</li>
-      <li>Structured Cabling & System Upgrades</li>
-      <li>Burglary Intrusion Alarm Systems</li>
-    </ul>
+  <section id="contact" class="content-section contact-section">
+    <div class="container">
+      <h2>Contact Us</h2>
+      <p>Email: contact@mastermountav.ca</p>
+      <p>Phone: (250) 555-1234</p>
+      <p>Service Area: West Kelowna, BC & the Okanagan</p>
+    </div>
   </section>
 
-  <section id="estimate" class="estimate-section">
-    <h2>Request a Free Estimate</h2>
-    <form>
-      <input type="text" name="name" placeholder="Your Name" required />
-      <input type="email" name="email" placeholder="Your Email" required />
-      <input type="tel" name="phone" placeholder="Phone Number (optional)" />
-      <select name="service">
-        <option>TV Mounting</option>
-        <option>AV & Home Theatre</option>
-        <option>CCTV Installation</option>
-        <option>Access Control</option>
-        <option>Burglar Alarm / Intrusion</option>
-      </select>
-      <textarea name="message" placeholder="Tell us about your project..." required></textarea>
-      <button type="submit">Send Request</button>
-    </form>
-  </section>
-
-  <footer>
-    <p>&copy; 2025 MasterMount AV & Surveillance | West Kelowna, BC | TQ Journeyman Certified</p>
-    <a href="#estimate" class="footer-cta">Request a Free Estimate</a>
+  <footer class="site-footer">
+    <div class="container">
+      <p>&copy; 2025 MasterMount AV & Surveillance | Designed for professionals, by professionals.</p>
+    </div>
   </footer>
 </body>
 </html>
