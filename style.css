@@ -1,0 +1,98 @@
+
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #0e0e0e;
+  color: #f1f1f1;
+}
+a {
+  color: #00bcd4;
+  text-decoration: none;
+}
+.site-header {
+  background: #1a1a1a;
+  padding: 1rem 0;
+}
+.header-container {
+  max-width: 1200px;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.logo {
+  color: #00bcd4;
+  font-size: 1.8rem;
+  margin: 0;
+}
+.nav-menu {
+  list-style: none;
+  display: flex;
+  gap: 1rem;
+}
+.nav-menu li {
+  position: relative;
+}
+.nav-menu .dropdown-content {
+  display: none;
+  position: absolute;
+  background: #222;
+  padding: 0.5rem;
+  list-style: none;
+  top: 100%;
+  left: 0;
+}
+.nav-menu li:hover .dropdown-content {
+  display: block;
+}
+.btn-estimate {
+  background: #00bcd4;
+  color: #121212;
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+  font-weight: bold;
+}
+.hero {
+  background: url('https://images.unsplash.com/photo-1590080875626-e79329c6a45f?fit=crop&w=1600&q=80') no-repeat center center;
+  background-size: cover;
+  padding: 6rem 1rem;
+  text-align: center;
+}
+.hero-content {
+  background: rgba(0, 0, 0, 0.6);
+  display: inline-block;
+  padding: 2rem;
+  border-radius: 8px;
+}
+.hero h2 {
+  font-size: 2.5rem;
+  color: #00bcd4;
+}
+.hero p {
+  font-size: 1.2rem;
+  color: #ccc;
+}
+.btn-hero {
+  margin-top: 1rem;
+  display: inline-block;
+  background: #00bcd4;
+  color: #121212;
+  padding: 0.75rem 1.5rem;
+  border-radius: 5px;
+  font-weight: bold;
+}
+.content-section {
+  padding: 3rem 1rem;
+  text-align: center;
+}
+.container {
+  max-width: 1000px;
+  margin: auto;
+}
+.site-footer {
+  background: #1a1a1a;
+  text-align: center;
+  padding: 2rem 1rem;
+  color: #aaa;
+}
